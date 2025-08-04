@@ -77,7 +77,7 @@ public class MovePlayer : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D colision)
     {
-        if(colision.CompareTag("nido"))
+        if(colision.CompareTag("Nido"))
         {
             Destroy(colision.gameObject);
             GameManager.instancia.SumarHuevo();
